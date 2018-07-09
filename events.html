@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title>Le Fond Galanterie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="mo.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script type="text/javascript" src="mo.js"></script>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="w3-padding-64 w3-center"><b>LE<br>FOND<br>GALANTERIE</b></h3>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <a href="http://lefondgalanterie.com/#" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a> 
+  <a href="http://lefondgalanterie.com/#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="events.html" onclick="w3_close()" class="w3-bar-item w3-button">EVENTS</a>
+  <a href="http://lefondgalanterie.com/#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">LE FOND GALANTERIE</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+  <!-- Event section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="events">
+    <div class="w3-content" style="max-width:600px">
+      <h3 class="w3-center"><b>Upcoming Events</b></h3>
+      <br>
+        <h4>Friday, July 13th, <a href="http://kirklandartwalk.com/home/">Kirkland Art Walk</a></h4>
+        <p>Realogics Sotheby’s International Realty<p>
+        <p>15 Lake St S #200, Kirkland, WA 98033</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d282.37531850852037!2d-122.20720785099186!3d47.67622583249762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9562cc11bc4e1f0!2sRealogics+Sotheby%E2%80%99s+International+Realty!5e0!3m2!1sen!2sus!4v1531175145994" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <hr>
+
+    </div>
+  </div>
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-grey">  
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <p>Le Fond Galanterie -- Mo Mousavi</p>
+        <a href="https://www.etsy.com/shop/LeFondGalanterie">Etsy</a>
+        <a href="https://lefonddegalanterie.weebly.com/">Weebly</a>    
+      </div>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</body>
+</html>
